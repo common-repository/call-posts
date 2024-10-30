@@ -1,0 +1,196 @@
+/* cps_admin_editor_btn CSS */
+#cps_model_bg, #cps_model_div{
+	display:none;
+}
+.cps_model_inner_title{
+	font-size: 16px;
+	padding: 10px 0;
+}
+#cps_source{
+	width:100%
+}
+#cps_model_div {
+    display: none;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+    box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    margin-left: -150px;
+    margin-top: -125px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 100105;
+    -webkit-transition: height 0.2s, margin-top 0.2s;
+    transition: height 0.2s, margin-top 0.2s;
+}
+#cps_model_bg {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 360px;
+	background: #000;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	z-index: 100100;
+}
+.cps_Basic {
+	padding: 0 16px 50px;
+}
+#cps_model_tab {
+    padding: 10px 16px 10px;
+    background: red;
+    color: white;
+}
+#cps_model_tab span{
+	margin-right: 15px;
+	cursor: pointer;
+
+}
+#cps_model_tab span.active {
+    border-bottom: 2px solid white;
+}
+#cps_model_body {
+	position: relative;
+	height: 100%;
+}
+#cps_model_title {
+	background: #fcfcfc;
+	border-bottom: 1px solid #dfdfdf;
+	height: 36px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 36px;
+	padding: 0 36px 0 16px;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+#cps_model_close {
+	color: #666;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+#cps_model_close:before {
+	font: normal 20px/36px 'dashicons';
+	vertical-align: top;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width: 36px;
+	height: 36px;
+	content: '\f158';
+}
+#cps_model_close:hover,
+#cps_model_close:focus {
+	color: #2ea2cc;
+}
+#cps_model_close:focus {
+	outline: none;
+	-webkit-box-shadow:
+		0 0 0 1px #5b9dd9,
+		0 0 2px 1px rgba(30, 140, 190, .8);
+	box-shadow:
+		0 0 0 1px #5b9dd9,
+		0 0 2px 1px rgba(30, 140, 190, .8);
+}
+
+
+#cps_model_body .submitbox {
+	padding: 8px 16px;
+	background: #fcfcfc;
+	border-top: 1px solid #dfdfdf;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#cps_model_cancel {
+	line-height: 25px;
+	float: left;
+}
+#cps_model_update {
+	line-height: 23px;
+	float: right;
+}
+#cps_model_submit {
+	float: right;
+	margin-bottom: 0;
+}
+.cps_insert_btn{
+	display: inline-flex !important;
+    align-items: center;
+}
+.cps_insert_btn span{
+    padding-right: 5px;
+	/*color: #82878c;*/
+	color: #0071a1;
+	position: relative;
+    font-size: 18px;
+    top: 2px;
+}
+.sri-editor-button-icon{
+    padding-left: 0 !important;
+}
+#cps_model_container div{
+	display:none;
+}
+#cps_model_container div.active{
+	display:block !important;
+}
+.cps_tab{
+	padding: 15px 15px 59px;
+}
+@media screen and ( max-width: 782px ) {
+	#cps_model_div {
+		margin-top: -140px;
+	}
+	#cps_model_body-inner {
+		padding: 0 16px 60px;
+	}
+	#cps_model_cancel {
+		line-height: 32px;
+	}
+}
+@media screen and ( max-width: 520px ) {
+	#cps_model_div {
+		width: auto;
+		margin-left: 0;
+		left: 10px;
+		right: 10px;
+		max-width: 500px;
+	}
+}
+@media screen and ( max-height: 520px ) {
+	#cps_model_div {
+		-webkit-transition: none;
+		transition: none;
+	}
+}
+@media screen and ( max-height: 290px ) {
+	#cps_model_div {
+		height: auto;
+		margin-top: 0;
+		top: 10px;
+		bottom: 10px;
+	}
+	.cps_Basic {
+		overflow: auto;
+		height: -webkit-calc(100% - 92px);
+		height: calc(100% - 92px);
+		padding-bottom: 2px;
+	}
+}

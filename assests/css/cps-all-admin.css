@@ -1,0 +1,74 @@
+.toplevel_page_call-posts.wp-has-current-submenu .wp-menu-image img{
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+#toplevel_page_call-posts .wp-menu-image img{
+	width: 18px;
+    position: relative;
+    bottom: 2px;
+	left: 1px;
+    opacity: 1;
+}
+.cps_skin span.dashicons.dashicons-trash{
+	color: #656565;
+	cursor: pointer;
+}
+.cps_skin span.dashicons.dashicons-admin-generic{
+    color: #656565;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.cps-deleteskin{
+	color: #656565;
+	cursor: pointer;
+	transform: rotate(45deg);
+}
+.cps-new-value .dashicons-arrow-down{
+	color: #656565;
+	cursor: pointer;
+    font-size: 31px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 5px;
+}
+.cps-new-value .dashicons-arrow-up {
+	color: #656565;
+	cursor: pointer;
+    font-size: 31px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 0px;
+}
+.cps_widget_class{
+    width: 100%;
+    padding: 15px 0;
+}
+.callposts-meta-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.callposts-meta-table td, .callposts-meta-table th {
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+}
+.callposts-meta-table th {
+	text-align: left;
+	color: black;
+}
+.callposts-meta-table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+.callposts-meta-table tr:hover {
+	background-color: #ddd;
+}
+.custom-notice-dismiss{
+    color: #0073aa;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.custom-notice-dismiss:hover{
+    color: #00a0d2;
+}

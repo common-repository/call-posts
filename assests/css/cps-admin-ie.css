@@ -1,0 +1,8 @@
+#cps-overlay {
+    overflow-x: auto !important;
+}
+.cps-wrapper {
+	height: auto !important;
+    position: relative !important;
+    left: 10px !important;
+}
